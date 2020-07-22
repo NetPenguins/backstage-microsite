@@ -33,30 +33,28 @@ class Footer extends React.Component {
           <div>
             <h5>Docs</h5>
             <a
-              href={`${this.props.config.repoUrl}/blob/master/docs/getting-started/create-a-plugin.md`}
+              href={`${this.props.config.repoUrl}/blob/master/docs/plugins/create-a-plugin.md`}
             >
               Create a Plugin
             </a>
             <a
-              href={`${this.props.config.repoUrl}/blob/master/docs/getting-started/structure-of-a-plugin.md`}
+              href={`${this.props.config.repoUrl}/blob/master/docs/plugins/structure-of-a-plugin.md`}
             >
               Structure of a Plugin
             </a>
-            <a
-              href={`${this.props.config.repoUrl}/blob/master/docs/reference/README.md`}
-            >
+            <a href={`${this.props.config.repoUrl}/tree/master/docs`}>
               API references
             </a>
-            <a
-              href={`${this.props.config.repoUrl}/blob/master/docs/FAQ.md`}
-            >
+            <a href={`${this.props.config.repoUrl}/blob/master/docs/FAQ.md`}>
               FAQ
             </a>
           </div>
           <div>
             <h5>Community</h5>
             <a href="https://discord.gg/MUpMjP2">Support chatroom</a>
-            <a href='https://mailchi.mp/spotify/backstage-community'>Subscribe to our newsletter</a>
+            <a href="https://mailchi.mp/spotify/backstage-community">
+              Subscribe to our newsletter
+            </a>
             {/*
             <h5>Docs</h5>
             <a href={this.docUrl("developing-a-plugin.html", this.props.language)}>
