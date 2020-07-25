@@ -411,7 +411,28 @@ code {
   flex: 1 1 0;
 }
 
+.Block__MediaFrame{
+  width: 55%;
+  height: 500px;
+  padding: 20px 0;
+  flex: 0 0 auto;
+  align-self: flex-start;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.Block__MediaFrame iframe{
+  width: 100% !important;
+  height: 100% !important;
+}
+
 @media only screen and (max-width: 1400px) {
+  .Block__MediaFrame{
+    width: 100%;
+  }
+
   .Block__TextBox {
     align-self: center;
     height: auto;
@@ -435,7 +456,14 @@ code {
   line-height: 56px;
   word-break: break-word;
 }
-
+@media only screen and (max-width: 485px) {
+  .Block__Title{
+    text-align: start;
+    word-break: keep-all;
+    font-size: 43px;
+    line-height: 45px;
+  }
+}
 .Block__Paragraph {
   color: #fff;
   font-style: normal;

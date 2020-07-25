@@ -36,9 +36,9 @@ const Background = (props) => {
             <Block.Paragraph>Backstage is an open source platform for building developer portals. We’ve been using our homegrown version at Spotify for years — so it’s already packed with features. (We have over 120 internal plugins, built by 60 different teams.) In this live demo recording, Stefan Ålund, product manager for Backstage, tells the origin story of Backstage and gives you a tour of how we use it here at Spotify.</Block.Paragraph>
             <Block.LinkButton href={"https://www.youtube.com/watch?v=1XtJ5FAOjPk"}>Watch now</Block.LinkButton>
           </Block.TextBox>
-          <Block.TextBox>
+          <Block.MediaFrame> 
             <iframe width="800" height="500" src="https://www.youtube.com/embed/1XtJ5FAOjPk" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-          </Block.TextBox>
+          </Block.MediaFrame>
         </Block.Container>
       </Block>
 
@@ -50,9 +50,9 @@ const Background = (props) => {
 
             <Block.LinkButton href={"https://www.youtube.com/watch?v=K3xz6VAbgH8&list=PLf1KFlSkDLIBtMGwRDfaVlKMqTMrjD2yO&index=6"}>Watch now</Block.LinkButton>
           </Block.TextBox>
-          <Block.TextBox>
+          <Block.MediaFrame>
             <iframe width="800" height="500" src="https://www.youtube.com/embed/K3xz6VAbgH8" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-          </Block.TextBox>
+          </Block.MediaFrame>
         </Block.Container>
       </Block>
 
@@ -64,9 +64,9 @@ const Background = (props) => {
 
             <Block.LinkButton href={"https://www.youtube.com/watch?v=U1iwe3L5pzc"}>Watch now</Block.LinkButton>
           </Block.TextBox>
-          <Block.TextBox>
+          <Block.MediaFrame>
             <iframe width="800" height="500" src="https://www.youtube.com/embed/U1iwe3L5pzc" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-          </Block.TextBox>
+          </Block.MediaFrame>
         </Block.Container>
       </Block>
 
@@ -79,9 +79,9 @@ const Background = (props) => {
             </Block.Paragraph>
             <Block.LinkButton href={"https://www.youtube.com/watch?v=vcDL9tOv7Eo"}>Watch now</Block.LinkButton>
           </Block.TextBox>
-          <Block.TextBox>
+          <Block.MediaFrame>
             <iframe width="800" height="500" src="https://www.youtube.com/embed/vcDL9tOv7Eo" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-          </Block.TextBox>
+          </Block.MediaFrame>
         </Block.Container>
       </Block>
 
@@ -92,9 +92,9 @@ const Background = (props) => {
           <Block.Paragraph>We manage a lot of data pipelines (also known as workflows) here at Spotify. So, of course, we made a great workflows plugin for our version of Backstage. All our workflow tools — including a scheduler, log inspector, data lineage graph, and configurable alerts — are integrated into one simple interface.</Block.Paragraph>
           <Block.LinkButton href={"https://www.youtube.com/watch?v=rH46MLNZIPM "}>Watch now</Block.LinkButton>
         </Block.TextBox>
-        <Block.TextBox>
+        <Block.MediaFrame>
           <iframe width="800" height="500" src="https://www.youtube.com/embed/rH46MLNZIPM" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        </Block.TextBox>
+        </Block.MediaFrame>
       </Block.Container>
       </Block>
 
